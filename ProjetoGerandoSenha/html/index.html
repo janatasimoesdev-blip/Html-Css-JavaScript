@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../src/Style/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title>Gerando Senha</title>
+    
+</head>
+<body>
+    <main id="conteiner">
+        <div>
+            <img src="../src/img/illustration.svg" alt="cadeado">
+        </div>
+        <h2><span class="spanh2">Gerar</span>  <span class="spanh2">Senha</span></h2>
+
+        <div id="passaword_container">
+            <span id="passaword"></span>
+            <button id="copy">
+                <i class="fa-solid fa-copy"></i>
+            </button>
+        </div>
+
+        <div id="content">
+            <div id="conteiner-input">
+                <div class="div-cheack div-cheack-number">
+                    <input type="text" name="size" id="size">
+                    <label for="size"> Qunatidade De Caractres</label>
+                </div>
+                <div class="div-cheack">
+                    <input type="checkbox" class="checkbox" id="include_number"> 
+                    <label for="include_number">Incuir Números</label>
+                </div>
+                <div class="div-cheack">
+                    <input type="checkbox" name="include_LowCaser" class="checkbox" id="include_LowCaser">
+                    <label for="include_LowCaser">Incluir Letras Menúsculas</label>
+                </div>
+                <div class="div-cheack">
+                    <input type="checkbox" name="include_UpCaser" class="checkbox" id="include_UpCaser">
+                            <label for="include_UpCaser">Incluir Letras Maúsculas</label>
+                </div>
+                <div class="div-cheack">
+                    <input type="checkbox" class="checkbox" id="include_characters" >characters: caracetres ingles
+                    <label for="include_characters">Inculir Caractres Especiais</label>
+                </div>
+            </div>
+            <button id="btn-senha">Gera Senha</button>
+        </div>
+    </main>
+
+   
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../src/js/javaScript.js"></script>
+</body>
+</html>

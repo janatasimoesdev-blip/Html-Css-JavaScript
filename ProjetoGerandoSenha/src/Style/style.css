@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background:  rgba(0, 0, 0, 0.945);
+}
+
+img {
+    width: 70px;
+}
+.spanh2 {
+    color: #fff;
+    padding-left: 20px;
+}
+h2 {
+    padding: 15px;
+}
+
+
+/* styler do Display da senha*/
+#passaword_container{
+    background-color: rgb(64, 58, 58); 
+    display: none;
+    margin-bottom: 7px;
+    width: 340px;
+    height: 23px;
+    border: none;
+    border-radius: 10px;
+    font-size: smaller;
+    padding:10px;
+    color: #fff;
+    justify-content: space-between;
+}
+#copy {
+    color: rgb(77, 228, 77);
+    background-color: transparent;
+    border: none;
+    height: 20px;
+    width: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: color .4s;
+}
+#copy:hover {
+    color: #8bc34aa6;
+}
+
+#passaword_container.show {
+    display: flex;
+}
+
+/* styler do corpo */
+#conteiner {
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    background: wheat;
+    height: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: rgb(64, 58, 58); 
+    color: #fff;
+}
+
+
+/*styler do input cheack*/
+.div-cheack{
+    padding: 6px;
+}
+.div-cheack-number input {
+    width: 30px;
+}
+
+label {
+    padding-left: 10px;
+}
+
+
+
+/*styler bottom*/
+#btn-senha {
+    width: 341px;
+    font-size: 17px;
+    padding: 10px;
+    background: rgb(77, 228, 77);
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;  
+} 
